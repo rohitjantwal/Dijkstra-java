@@ -17,6 +17,7 @@ where –s represents simple scheme mode and filename is the name of the file co
 
 Fibonacci heap scheme:
 java dijkstra –f filename where –f represents Fibonacci heap scheme and filename is the name of the file containing the input.
+
 Assuming that that the vertices are from 0 to n-1. An example input can be:
 0
 3 3
@@ -142,6 +143,7 @@ F heap scheme
 100%
 12100
 14611
+
 Result Observations:
 The above collected data almost meet the expectations according to the complexity of the algorithms.
 As n is increased, n2 greatly increases but there is not much effect on nlogn+e where e is almost negligible therefore Fibonacci heap performs better with large n values.
